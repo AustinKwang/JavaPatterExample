@@ -23,7 +23,7 @@ package com.austin.memento.undo;
 public interface Command
 {// 命令，其实现就是一个命令，会调用一个命令执行者来执行命令， 此接口定义了一组命令
 
-	//执行命令
+	//执行命令  -
 	public void excute();
 	
 	//撤销命令， 恢复到备忘录对象记录的状态
