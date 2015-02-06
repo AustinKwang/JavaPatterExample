@@ -49,7 +49,6 @@ public class FilterChain
 		{
 			return;
 		}
-		
 		Filter filter = filterChainList.get(currentPostion ++);
 		filter.doFilter(condition, filterChain);
 			
