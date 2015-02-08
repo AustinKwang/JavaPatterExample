@@ -35,7 +35,7 @@ public interface OperationApi
 	//常见备忘录对象
 	public Memento createMemento();
 	
-	//重新设置备忘录对象，让其回到该备忘录记录的状态
+	//重新设置备忘录对象，让其回到该备忘录记录的状态, Nothing
 	public void setMemento(Memento memento);
 	
 }
